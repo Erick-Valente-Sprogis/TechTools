@@ -2,6 +2,52 @@
 
 ### Here are some tips and tricks to make your life as a developer and dealing with technology easier on a daily basis.
 
+## Dealing with GitHub Repositories
+
+#### Make sure you have Git installed on your machine, if not, follow the link to install it: [GitHub Downloads](https://git-scm.com/downloads)<br>
+
+#### If you have an empty repository on GitHub and your project in your IDE (vscode for example).
+
+##### Start a Local Git Repository:
+
+```git
+git init -b main
+```
+
+##### Add the Files to the "Staging":
+
+```git
+git add .
+```
+
+##### Commit the Files:
+
+```git
+git commit -m "Initial Commit"
+```
+
+##### Connect your Local Repository to the GitHub Repository:
+
+```git
+git remote add origin https://github.com/your-username/your-repository.git
+```
+
+##### Push your Changes to GitHub:
+
+```git
+git push -u origin main
+```
+
+#### Command Summary:
+
+- `git push` : The command to push.
+- `origin` : Which remote repository to push to. - `main` : Which branch to push to.
+- `-u` : (or `--set-upstream` ) This is an important shortcut. It makes your local `main` branch "follow" the remote `main` branch. In practice, this means that the next time you want to push something, you can just type `git push` .
+
+#### After the last command, Git may ask you for your GitHub username and password. Note: Nowadays, GitHub requires a Personal Access Token (PAT) instead of your regular password for terminal operations. If it asks for the password and yours doesn't work, you'll need to create a PAT and use it instead.
+
+#### After that, refresh your repository page on GitHub and all your files will be there!
+
 ## Tools
 
 [Acesso remoto gratuito no navegador - openSource](https://www.dwservice.net)
