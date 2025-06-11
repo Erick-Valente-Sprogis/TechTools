@@ -134,6 +134,57 @@ By answering "Yes" to the last question, `gh` will create the repository on GitH
 
 ##### Both paths will lead you to the same result. Choose the one that feels most comfortable to you right now!
 
+### 3. If you have a **repository on GitHub with your project already made** and you want to bring all the files to your IDE (vscode for example).
+
+##### Copy the URL of the repository on GitHub:
+
+- Click the green `< > Code` button.
+- In the HTTPS tab, copy the URL that appears. It usually ends with `.git` . For beginners, the HTTPS URL is the most recommended.
+
+##### Run the git clone command:
+
+```
+git clone https://github.com/username/repository-name.git
+```
+
+##### Press Enter. Git will:
+
+- Create a new folder with the same name as the repository (e.g. `repository-name` ).
+- Download all the files and history of the project into it.
+- Automatically configure the connection to the remote repository (the `origin` ).
+
+##### Open the Project in VS Code:
+
+```md
+# 1. Go to the folder that git just created
+
+cd repository-name
+
+# 2. Open VS Code in this folder
+
+code .
+```
+
+#### How can I continue updating my repository locally now?
+
+##### Add the Files to the "Staging":
+
+```git
+git add .
+```
+
+##### Commit the Files:
+
+```git
+git commit -m "Initial Commit"
+```
+
+##### Push your Changes to GitHub:
+
+```git
+git push -u origin main
+```
+
 ## Tools
 
 [Acesso remoto gratuito no navegador - openSource](https://www.dwservice.net)
