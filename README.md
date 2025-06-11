@@ -2,6 +2,17 @@
 
 ### Here are some tips and tricks to make your life as a developer and dealing with technology easier on a daily basis.
 
+## Summary:
+
+- [Dealing with GitHub Repositories](#dealing-with-github-repositories)
+
+      - [1. Empty repository on GitHub](#1-if-you-have-an-empty-repository-on-github-and-your-project-is-in-your-ide-vscode-for-example)
+      - [2. don't have a repository created on GitHub](#2-if-you-dont-have-a-repository-created-on-github-just-the-project-in-your-ide-vscode-for-example)
+          - [Method 1](#method-1)
+          - [Method 2](#method-2)
+
+- [Tools](#tools)
+
 ## Dealing with GitHub Repositories
 
 ### Make sure you have Git installed on your machine, if not, follow the link to install it: [GitHub Downloads](https://git-scm.com/downloads)<br>
