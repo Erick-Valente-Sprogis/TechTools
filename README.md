@@ -6,7 +6,7 @@
 
 #### Make sure you have Git installed on your machine, if not, follow the link to install it: [GitHub Downloads](https://git-scm.com/downloads)<br>
 
-#### If you have an empty repository on GitHub and your project in your IDE (vscode for example).
+#### 1. If you have an **empty repository on GitHub** and your project is in your IDE (vscode for example).
 
 ##### Start a Local Git Repository:
 
@@ -47,6 +47,81 @@ git push -u origin main
 #### After the last command, Git may ask you for your GitHub username and password. Note: Nowadays, GitHub requires a Personal Access Token (PAT) instead of your regular password for terminal operations. If it asks for the password and yours doesn't work, you'll need to create a PAT and use it instead.
 
 #### After that, refresh your repository page on GitHub and all your files will be there!
+
+#### 2. If you **don't have a repository created on GitHub**, just the project in your IDE (vscode for example).
+
+#### **Method 1**
+
+##### Start a Local Git Repository:
+
+```git
+git init -b main
+```
+
+##### Add the Files to the "Staging":
+
+```git
+git add .
+```
+
+##### Commit the Files:
+
+```git
+git commit -m "Initial Commit"
+```
+
+##### Create a repository on GitHub
+
+##### **IMPORTANT: Create an Empty Repository**
+
+##### **To avoid conflicts, DO NOT check any of the initialization boxes:**
+
+**- DO NOT check "Add a README file".**
+**- DO NOT check "Add .gitignore".**
+**- DO NOT check "Choose a license".**
+
+##### Connect your Local Repository to the GitHub Repository:
+
+```git
+git remote add origin https://github.com/your-username/your-repository.git
+```
+
+##### Push your Changes to GitHub:
+
+```git
+git push -u origin main
+```
+
+#### **Method 2**
+
+##### Install GitHub CLI:
+
+##### If you don't have it yet, follow the instructions at [cli.github.com](https://cli.github.com/) After installing, you'll need to authenticate once with the `gh auth login` command.
+
+##### Run the Magic Command:
+
+##### After you've made your local commits (the ` init` , ` add` , `commit` steps), run this single command in your terminal:
+
+```git
+gh repo create
+```
+
+##### Follow the Interactive Steps: The tool will ask you a few questions:
+
+`Create a new repository on GitHub from this existing local repository?` -> Select **Yes.**
+`Repository name` -> It suggests the name of your current folder (press Enter to confirm). `Description` -> **Optional.**
+`Visibility` -> Choose **Public** or **Private.**
+`Add a remote?` -> **Yes.**
+`What should the remote be called?` -> `origin` (press Enter).
+`Would you like to push all the commits from 'main' to 'origin/main'?` -> **Yes.**
+By answering "Yes" to the last question, `gh` will create the repository on GitHub, add the `remote` and do the `push` for you. All in one step!
+
+##### **Which one to choose?**
+
+- Method 1 (Website): This is a great way to start, as the process is more visual and helps you understand the concepts of `remote` and `push` .
+- Method 2 (CLI): Once you get used to it, this method is much faster and more efficient for everyday use.
+
+##### Both paths will lead you to the same result. Choose the one that feels most comfortable to you right now!
 
 ## Tools
 
