@@ -11,7 +11,7 @@
     - [Method 1](#method-1)
     - [Method 2](#method-2)
 
-- [repository on GitHub with your project already made](#3-if-you-have-a-repository-on-github-with-your-project-already-made-and-you-want-to-bring-all-the-files-to-your-ide-vscode-for-example)
+- [3. Repository on GitHub with your project already made](#3-if-you-have-a-repository-on-github-with-your-project-already-made-and-you-want-to-bring-all-the-files-to-your-ide-vscode-for-example)
 
 - [Tools](#tools)
 
