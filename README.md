@@ -195,6 +195,83 @@ git push -u origin main
 
 [Return to Top](#summary)
 
+## 4. Installing the requirements for development in Windows 10/11
+
+### 1. Preparing the work environment
+
+Click on the search bar (Search) next to the start button and type: powershell
+Click on the "Run as administrator" option
+Inform the user with administrative privileges and respective password
+A window with the title: "Administrator: Windows PowerShell" will be available.
+This is where we will execute the other commands
+
+#### 1.1. Adjusting the execution permissions
+
+Check the permissions configuration
+
+> `Get-ExecutionPolicy`
+
+If "Restricted" (Bypass or other information) appears, then type:
+
+> `Set-ExecutionPolicy AllSigned`
+
+Check the permissions again
+
+> `Get-ExecutionPolicy AllSigned`
+
+This confirms that we can proceed. If "AllSigned" does not appear, close the window and
+repeat procedure 1 until successful. If you still have any questions, bring them to class.
+
+### 2. Installing the necessary programs
+
+#### 2.1. Installing the chocolatey package manager
+
+Copy and paste the following content into the powershell terminal with administrator privileges and press ENTER
+
+`Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+
+After a few moments, the installation is complete.
+
+Check the success of this step with:
+
+> `choco --version 2.4.2`
+
+Note: The version will be the same or newer.
+
+#### 2.2. Installing VSCode (text editor with syntax highlighting)
+
+> `choco install vscode -y`
+
+#### 2.3. Installing Git (for use with GitHub)
+
+> `choco install git.install -y`
+
+**Requirements for developing applications in Python**
+
+#### 2.4. Installing Python 3.13
+
+> `choco install python313 -y`
+
+**Requirements for Android**
+
+#### 2.5. Installing Node.JS
+
+> `choco install nodejs-lts -y`
+
+#### 2.6. Installing Java 11
+
+> `choco install openjdk11 -y`
+
+#### 2.7. NodeJS version manager
+
+> `choco install nvm -y`
+
+#### 2.8. Alternative package manager to NPM (default)
+
+> `choco install yarn -y`
+
+[Return to Top](#summary)
+
 ## Tools
 
 [Acesso remoto gratuito no navegador - openSource](https://www.dwservice.net)
