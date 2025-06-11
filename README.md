@@ -13,6 +13,8 @@
 
 - [3. Repository on GitHub with your project already made](#3-if-you-have-a-repository-on-github-with-your-project-already-made-and-you-want-to-bring-all-the-files-to-your-ide-vscode-for-example)
 
+- [4. Installing the requirements for development in Windows 10/11](#4-installing-the-requirements-for-development-in-windows-1011)
+
 - [Tools](#tools)
 
 ## Dealing with GitHub Repositories
@@ -228,7 +230,7 @@ repeat procedure 1 until successful. If you still have any questions, bring them
 
 Copy and paste the following content into the powershell terminal with administrator privileges and press ENTER
 
-`Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+> `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 
 After a few moments, the installation is complete.
 
