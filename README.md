@@ -4,9 +4,9 @@
 
 ## Dealing with GitHub Repositories
 
-#### Make sure you have Git installed on your machine, if not, follow the link to install it: [GitHub Downloads](https://git-scm.com/downloads)<br>
+### Make sure you have Git installed on your machine, if not, follow the link to install it: [GitHub Downloads](https://git-scm.com/downloads)<br>
 
-#### 1. If you have an **empty repository on GitHub** and your project is in your IDE (vscode for example).
+### 1. If you have an **empty repository on GitHub** and your project is in your IDE (vscode for example).
 
 ##### Start a Local Git Repository:
 
@@ -48,9 +48,9 @@ git push -u origin main
 
 #### After that, refresh your repository page on GitHub and all your files will be there!
 
-#### 2. If you **don't have a repository created on GitHub**, just the project in your IDE (vscode for example).
+### 2. If you **don't have a repository created on GitHub**, just the project in your IDE (vscode for example).
 
-#### **Method 1**
+### **Method 1**
 
 ##### Start a Local Git Repository:
 
@@ -92,7 +92,7 @@ git remote add origin https://github.com/your-username/your-repository.git
 git push -u origin main
 ```
 
-#### **Method 2**
+### **Method 2**
 
 ##### Install GitHub CLI:
 
