@@ -61,6 +61,8 @@ git push -u origin main
 
 #### After that, refresh your repository page on GitHub and all your files will be there!
 
+[Return to Top](#summary)
+
 ### 2. If you **don't have a repository created on GitHub**, just the project in your IDE (vscode for example).
 
 ### **Method 1**
@@ -105,6 +107,8 @@ git remote add origin https://github.com/your-username/your-repository.git
 git push -u origin main
 ```
 
+[Return to Top](#summary)
+
 ### **Method 2**
 
 ##### Install GitHub CLI:
@@ -135,6 +139,8 @@ By answering "Yes" to the last question, `gh` will create the repository on GitH
 - Method 2 (CLI): Once you get used to it, this method is much faster and more efficient for everyday use.
 
 ##### Both paths will lead you to the same result. Choose the one that feels most comfortable to you right now!
+
+[Return to Top](#summary)
 
 ### 3. If you have a **repository on GitHub with your project already made** and you want to bring all the files to your IDE (vscode for example).
 
@@ -187,6 +193,8 @@ git commit -m "Initial Commit"
 git push -u origin main
 ```
 
+[Return to Top](#summary)
+
 ## Tools
 
 [Acesso remoto gratuito no navegador - openSource](https://www.dwservice.net)
@@ -234,3 +242,5 @@ git push -u origin main
 <br>[W11: Gerador de instalação limpa automática/offline](https://schneegans.de/windows/unattend-generator/)
 <br>[W11: Winhance - Windows Enhancement Utility](https://github.com/memstechtips/Winhance)
 <br>[Youtube Downloader](https://www.y2mate.com)
+
+[Return to Top](#summary)
