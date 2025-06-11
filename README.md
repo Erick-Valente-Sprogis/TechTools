@@ -6,10 +6,10 @@
 
 - [Dealing with GitHub Repositories](#dealing-with-github-repositories)
 
-      - [1. Empty repository on GitHub](#1-if-you-have-an-empty-repository-on-github-and-your-project-is-in-your-ide-vscode-for-example)
-      - [2. don't have a repository created on GitHub](#2-if-you-dont-have-a-repository-created-on-github-just-the-project-in-your-ide-vscode-for-example)
-          - [Method 1](#method-1)
-          - [Method 2](#method-2)
+  - [1. Empty repository on GitHub](#1-if-you-have-an-empty-repository-on-github-and-your-project-is-in-your-ide-vscode-for-example)
+  - [2. don't have a repository created on GitHub](#2-if-you-dont-have-a-repository-created-on-github-just-the-project-in-your-ide-vscode-for-example)
+    - [Method 1](#method-1)
+    - [Method 2](#method-2)
 
 - [Tools](#tools)
 
